@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WEB 102</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tbody>
+                <tr>
+                    <td>NAME:</td>
+                    <td> <input type="text" name="name" value="Mohamad"></td>
+                </tr>
+                <tr>
+                    <td>Family:</td>
+                    <td><input type="text" name="family" placeholder="Enter Your Family Here....."></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" value="amin.noandish@gmail.com" readonly></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td><input type="radio" name="Gender" value="Male">Male
+                    <input type="radio" name="Gender" value="Femail">Femail
+                    <input type="radio" name="Gender" value="Other">Other</td>
+                </tr>
+                <tr>
+                    <td>Mobile:</td>
+                    <td>
+                        <select name="mobile">
+                            <option value="0912">0912</option>
+                            <option value="0910" selected>0910</option>
+                            <option value="0939">0939</option>
+                            <option value="0936">0936</option>
+                        </select>
+                        <input type="number" name="number" >
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="4">interests</td>
+                    <td>
+                            <input type="checkbox" name="interests">Music
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                            <input type="checkbox" name="interests" disabled>Book
+                    </td>
+                </tr>    
+                <tr>
+                    <td>
+                           <input type="checkbox" name="interests" checked>Philosophy
+                    </td>
+                </tr>    
+                <tr>
+                    <td>
+                           <input type="checkbox" name="interests">Poker
+                    </td>
+                </tr>    
+                <tr>
+                    <td>My Comment</td>
+                    <td>
+                        <textarea name="comment" cols="30" rows="10">awesome web design......</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit">SEND</button>
+                        <button type="reset">RESET</button>
+                    </td>
+                </tr>                       
+            </tbody>
+         </table>                  
+     </form>
+    </body>
+</html>
